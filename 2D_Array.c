@@ -8,22 +8,22 @@ int main()
     int B[2][2];
     int C[2][2];
 
-    printf("Enter The Elements Of Array A\n");
+    printf("Enter The Elements Of Array A\n"); // 1
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
         {
-            printf("Enter The Element for Array A\n");
+            printf("Enter The Element for Array A\n"); // 4
             scanf("%d", &A[i][j]);
         }
     }
 
-    printf("Enter The Elements Of Array B\n");
+    printf("Enter The Elements Of Array B\n"); // 1
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
         {
-            printf("Enter The Element for Array B\n");
+            printf("Enter The Element for Array B\n"); // 4
             scanf("%d", &B[i][j]);
         }
     }
@@ -33,7 +33,7 @@ int main()
     {
         for (j = 0; j < 2; j++)
         {
-            printf("%d", A[i][j]);
+            printf("%d", A[i][j]); //  1
             printf(" ");
         }
         printf("\n");

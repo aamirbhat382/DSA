@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Space</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-b from-blue-50 to-blue-100 text-gray-800">
+
+<header class="bg-gradient-to-r from-green-400 to-blue-500 text-white p-5 shadow-lg">
+    <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-5xl font-bold">Study Space</h1>
+        <nav>
+            <a href="#" class="mx-3 hover:underline">Home</a>
+            <a href="#" class="mx-3 hover:underline">Quizzes</a>
+            <a href="#" class="mx-3 hover:underline">Skill Swap</a>
+            <a href="#" class="mx-3 hover:underline">Study Groups</a>
+            <a href="#" class="mx-3 hover:underline">Login</a>
+        </nav>
+    </div>
+</header>
+
+<section class="container mx-auto mt-8 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-4xl font-semibold text-center text-indigo-700">Welcome to Your Learning Hub!</h2>
+    <p class="mt-4 text-gray-600 text-center">Join a community of learners and enhance your skills with exciting features.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+        <div class="card bg-white p-5 rounded-lg shadow-md">
+            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE5fHxxdWl6fGVufDB8fHx8MTY5MTU1OTg0Ng&ixlib=rb-1.2.1&q=80&w=400" alt="Quiz" class="rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold text-green-500">📝 Daily Quizzes</h3>
+            <p class="text-gray-600">Test your knowledge with daily quizzes to reinforce your learning.</p>
+            <button class="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition">Start Quiz</button>
+        </div>
+        <div class="card bg-white p-5 rounded-lg shadow-md">
+            <img src="https://images.unsplash.com/photo-1517242022012-67d69c8c4e6e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHNraWxsJTIwc3dhcHxlbnwwfHx8fDE2OTE1NTk5MTU&ixlib=rb-1.2.1&q=80&w=400" alt="Skill Swap" class="rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold text-blue-500">🤝 Skill Sharing</h3>
+            <p class="text-gray-600">Share your skills and learn from others in the community.</p>
+            <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Join Now</button>
+        </div>
+        <div class="card bg-white p-5 rounded-lg shadow-md">
+            <img src="https://images.unsplash.com/photo-1521737604893-D14N2PqI0Jg8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE4fHx0ZWFtJTIwYnVpbGRpbmd8ZW58MHx8fHwxNjkxNTU5OTE5&ixlib=rb-1.2.1&q=80&w=400" alt="Team Building" class="rounded-t-lg mb-4">
+            <h3 class="text-xl font-semibold text-purple-500">👥 Team Building Activities</h3>
+            <p class="text-gray-600">Engage in fun activities to foster teamwork and collaboration.</p>
+            <button class="mt-4 px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition">Explore Activities</button>
+        </div>
+    </div>
+</section>
+
+<section class="container mx-auto mt-12 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-3xl font-semibold text-center text-indigo-700">Why Choose Study Space?</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div class="bg-green-100 p-5 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-green-500">Expert Instructors</h3>
+            <p class="text-gray-600">Learn from experienced instructors who are passionate about teaching.</p>
+        </div>
+        <div class="bg-blue-100 p-5 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-blue-500">Flexible Learning</h3>
+            <p class="text-gray-600">Access courses anytime, anywhere, at your own pace.</p>
+        </div>
+        <div class="bg-purple-100 p-5 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-purple-500">Community Support</h3>
+            <p class="text-gray-600">Connect with fellow learners and support each other on your journey.</p>
+        </div>
+    </div>
+</section>
+
+<section class="container mx-auto mt-12 p-6 bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-lg shadow-lg">
+    <h2 class="text-3xl font-semibold text-center">Join Us Today!</h2>
+    <p class="mt-4 text-center">Sign up now and start your journey to knowledge and success.</p>
+    <div class="text-center mt-4">
+        <button class="px-6 py-3 bg-white text-green-500 font-semibold rounded-lg hover:bg-gray-200 transition">Get Started</button>
+    </div>
+</section>
+
+<section class="container mx-auto mt-12 p-6 bg-white rounded-lg shadow-lg">
+    <h2 class="text-3xl font-semibold text-center text-indigo-700">Testimonials</h2>
+    <div class="flex flex-col mt-6 space-y-4">
+        <blockquote class="bg-gray-100 p-4 rounded-lg shadow-md">
+            <p class="text-gray-600">"Study Space has transformed the way I learn. The quizzes are fun and engaging!"</p>
+            <cite class="mt-2 block text-right font-semibold">— Ayesha</cite>
+        </blockquote>
+        <blockquote class="bg-gray-100 p-4 rounded-lg shadow-md">
+            <p class="text-gray-600">"I love the community support! I’ve made great friends while learning new skills."</p>
+            <cite class="mt-2 block text-right font-semibold">— Amir</cite>
+        </blockquote>
+        <blockquote class="bg-gray-100 p-4 rounded-lg shadow-md">
+            <p class="text-gray-600">"The flexibility of learning at my own pace is a game-changer for me!"</p>
+            <cite class="mt-2 block text-right font-semibold">— Fatima</cite>
+        </blockquote>
+    </div>
+</section>
+
+<footer class="bg-gradient-to-r from-green-400 to-blue-500 text-white text-center py-4 mt-8">
+    <p>&copy; 2024 Study Space. All Rights Reserved.</p>
+    <p>Contact us: info@studysace.com</p>
+</footer>
+
+</body>
+</html>
