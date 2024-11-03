@@ -6,7 +6,7 @@ int main()
     int i, j; 
     int count = 0, flag = 1;
     int arr[2][2];
-printf("Enter The Elements for Spherical Matrix\n");
+printf("Enter The Elements for Sparse Matrix\n");
     while (flag == 1)
     {
         for (i = 0; i < 2; i++)
@@ -30,7 +30,7 @@ printf("Enter The Elements for Spherical Matrix\n");
     }
 
 
-printf("The Spherical Matrix is:\n");
+printf("The Sparse Matrix is:\n");
      for (i = 0; i < 2; i++)
         {
             for (j = 0; j < 2; j++)

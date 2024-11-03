@@ -2,11 +2,9 @@
 
 int main()
 {
-
     int n;
     int arr[5] = {12, 3, 6 , 5, 1};
     n = 5;
-
     for (int i = 1; i < n; i++)
     {
         printf("FOR LOOP START\n");
